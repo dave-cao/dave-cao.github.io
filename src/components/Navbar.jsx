@@ -42,7 +42,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 ${position} ${visible ? '-top-20' : 'top-0'} top-0 z-50 bg-primary transition-all duration-300`}>
+      className={`${styles.paddingX} w-full flex items-center py-5 ${position} ${visible ? '-top-20' : 'top-0'} z-50 bg-primary transition-all duration-300`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 
         {/* Main logo / Home button */}
