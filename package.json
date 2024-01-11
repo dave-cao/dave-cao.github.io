@@ -5,8 +5,8 @@
   "homepage": "https://davidcao.xyz/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -16,6 +16,8 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
+    "@tsparticles/engine": "^3.0.3",
+    "@tsparticles/react": "^3.0.0",
     "framer-motion": "^10.17.9",
     "maath": "^0.10.7",
     "react": "^18.2.0",
@@ -24,8 +26,10 @@
     "react-router-dom": "^6.21.1",
     "react-text-glitch": "^0.0.4",
     "react-tilt": "^1.0.2",
+    "react-tsparticles": "^2.12.2",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.160.0",
+    "tsparticles": "^3.0.3",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
