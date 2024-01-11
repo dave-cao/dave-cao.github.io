@@ -27,14 +27,6 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
     id: "contact",
     title: "Contact",
   },
@@ -62,7 +54,6 @@ const services = [
     description: "Eternal knowledge seeker",
   },
 ];
-
 
 const experiences = [
   {
