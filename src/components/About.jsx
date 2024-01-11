@@ -50,7 +50,7 @@ const About = () => {
       >
         <p>Welcome to my profile! My name is David, a software developer dedicated to guiding you through the perils of the web and tech. Technology can be scary, but it doesn't have to be. Let me help you.</p>
         <br />
-        <p>I am currently pursuing a <span className="text-[]">Master in Computer and Information Technology from the University of Pennsylvania</span>, and have expertise in <span className="text-[#D2691E]">full-stack web development and software engineering.</span></p>
+        <p>I am currently pursuing a <span className="text-[]">Master of Computer Science from the University of Pennsylvania</span>, and have expertise in <span className="text-[#D2691E]">full-stack web development and software engineering.</span></p>
         <br />
         <p>I come from a unique background with a Bachelor's of Science in Kinesiology from the University of Alberta. As I pursued my studies, I explored my passion for tech by self-teaching myself web development, diving into Linux/Unix, and using cool tools like Vim.</p>
         <br />

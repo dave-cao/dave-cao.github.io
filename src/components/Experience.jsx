@@ -43,6 +43,7 @@ const ExperienceCard = ({ experience }) => {
             {point}
           </li>
         ))}
+        {experience.source && <li className="text-[14px] pl-1 tracking-wider" ><a className=" text-blue-600 dark:text-blue-500 hover:underline" href={experience.source.link} target="_blank">{experience.source.description}</a></li>}
       </ul>
     </VerticalTimelineElement>
   )
@@ -61,7 +62,7 @@ const Experience = () => {
           variants={mobileVariant()}
           className="mt-3 text-secondary text-[17px] max-w-2xl leading-[30px]"
         >
-          I started off with a being a self-taught developer, and then pivoted formal education. I continue to learn and self-teach outside of school.
+          I started my journey as a self-taught developer, and then pivoted to formal education. I continue to learn outside of school.
         </motion.p>
       </div>
 

@@ -87,8 +87,11 @@ const experiences = [
       "An 11 week long course to the fundamentals in Computer Science",
       "Created 11 different projects utilizing different methods or languages each week",
       "Learned Scratch, C, Arrays & Algorithms in C, Memory, Data Structures, SQL, HTML/CSS/Javascript, Flask and Cybersecurity Fundamentals",
-      "Click here for the certificate...",
     ],
+    source: {
+      description: "Click here for the certificate...",
+      link: "https://certificates.cs50.io/8568293d-85c8-4367-a126-cdd765221073.pdf?size=letter",
+    },
   },
   {
     title: "Angela Yu's 100 Days of Code BootCamp in Python",
@@ -102,8 +105,11 @@ const experiences = [
       "Web scraping with Beautiful Soup and Selenium",
       "Data science/analysis with numpy and matplotlib",
       "Created 100 projects in 100+ days",
-      "Link to the bootcamp...",
     ],
+    source: {
+      description: "Link to the bootcamp...",
+      link: "https://www.udemy.com/course/100-days-of-code/",
+    },
   },
   {
     title: "Web Development w/ React",
@@ -115,8 +121,11 @@ const experiences = [
       "A 10 week course for students to dive into React.",
       "Learned about web design, Vite, utilizing API's, and user interactivity through creating 10 different projects",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Link to final project here...",
     ],
+    source: {
+      description: "Link to the final project...",
+      link: "https://davidcao.xyz/Book-Chronicles/",
+    },
   },
   {
     title: "Hackathon Hacker",
@@ -128,11 +137,14 @@ const experiences = [
       "Led a team of 5 people to develop a solution addressing the challenges of connecting locals with family physicians in their area within 64 hours",
       "Designed and implemented a user-friendly website that facilitates easy access to local healthcare providers. React was used as the front-end and Flask was used as the back-end",
       "Researched and implemented a machine learning model for the Muse2 BCI to detect different emotions of the wearer using EEG signals which were displayed on the website",
-      "Link to final project here...",
     ],
+    source: {
+      description: "Link to the final project...",
+      link: "https://devpost.com/software/physmatch",
+    },
   },
   {
-    title: "Master of Computer and Information Technology",
+    title: "Master of Computer Science",
     company_name: "University of Pennsylvania",
     icon: upenn,
     iconBg: "#fdfdfd",

@@ -83,7 +83,7 @@ const Works = () => {
           <br />
           <br />
 
-          <a className="font-medium text-orange-600 dark:text-orange-500 hover:underline cursor-pointer" src="#">If you want to see more of my work, click here!</a>
+          <a href="https://davidcao.xyz/legacy-portfolio/ProjectsPage/index.html" target="_blank" className="font-medium text-orange-600 dark:text-orange-500 hover:underline cursor-pointer">If you want to see more of my work, click here!</a>
 
         </motion.p>
       </div>
