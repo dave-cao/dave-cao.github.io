@@ -201,7 +201,6 @@ const projects = [
     source_code_link: "https://github.com/dave-cao/Book-Chronicles",
     live_link: "https://dave-cao.github.io/Book-Chronicles/",
   },
-  /*
   {
     name: "David's Blog",
     description: "A simple and beautiful blog website.",
@@ -244,7 +243,6 @@ const projects = [
     source_code_link: "https://github.com/dave-cao/williamPortfolio",
     live_link: "https://www.williamheng.ca/",
   },
-  */
   {
     name: "Study Bot",
     description:
