@@ -3,20 +3,9 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 import { useState, useEffect } from "react"
 import LoadingScreen from "./components/LoadingScreen"
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'; // Import GLTFLoader from three.js
-import ReactGA from "react-ga4"
-
-const TRACKING_ID = "G-X8TT71R3LF"
-ReactGA.initialize(TRACKING_ID)
-
-
 
 const App = () => {
   const [loading, setLoading] = useState(true)
-
-  // GA Analytics
-  useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: "/", title: "David's Home Page" })
-  }, [])
 
   useEffect(() => {
     const fetchData = async () => {

@@ -6,7 +6,6 @@ import { styles } from "../styles"
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import ReactGA from "react-ga4"
 import toast, { Toaster } from "react-hot-toast"
 
 const Contact = () => {
@@ -55,14 +54,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
-    // send a submit event to google analytics
-    ReactGA.event({
-      category: "Contact form",
-      action: "Submit contact form.",
-      label: "A user has submitted your contact form",
-    })
-
     // toastify sending email
     toast.promise(sendEmail(), {
       loading: "Sending your message...",
