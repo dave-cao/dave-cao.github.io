@@ -6,6 +6,8 @@ import { styles } from "../styles"
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import ReactGA from "react-ga4"
+import toast, { Toaster } from "react-hot-toast"
 
 const Contact = () => {
 
@@ -22,11 +24,9 @@ const Contact = () => {
 
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const sendEmail = async () => {
     setLoading(true);
-
-    emailjs.send(
+    return emailjs.send(
       "service_bghs4dw",
       "template_k8q1ogv",
       {
@@ -40,7 +40,6 @@ const Contact = () => {
     )
       .then(() => {
         setLoading(false)
-        alert("Thank you. I will get back to you as soon as possible.")
 
         setForm({
           name: "",
@@ -52,7 +51,24 @@ const Contact = () => {
           alert("Something went wrong.")
         })
       })
+  }
 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    // send a submit event to google analytics
+    ReactGA.event({
+      category: "Contact form",
+      action: "Submit contact form.",
+      label: "A user has submitted your contact form",
+    })
+
+    // toastify sending email
+    toast.promise(sendEmail(), {
+      loading: "Sending your message...",
+      success: "Your message has been sent! Please wait for me to contact you back!",
+      error: "Error while sending your message..."
+    })
 
   }
 
@@ -120,6 +136,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <Toaster position="bottom-center" />
 
     </div>
   )
