@@ -11,6 +11,8 @@ import {
   nathacks,
   udemy,
   upenn,
+  skyit,
+  develop_for_good,
 
   // projects
   davidsblog,
@@ -18,6 +20,8 @@ import {
   studybot,
   williamPortfolio,
   physmatch,
+  aifluently,
+  cleverkiddos,
 
   // socials
   github_social,
@@ -26,10 +30,6 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "blog",
-    title: "Blog",
-  },
   {
     id: "contact",
     title: "Contact",
@@ -150,6 +150,42 @@ const experiences = [
       "Gained expertise in Python, Java, and C",
     ],
   },
+  {
+    title: "React Developer, Front-end Team Lead",
+    company_name: "SkyIT Services",
+    icon: skyit,
+    iconBg: "white",
+    date: "Feb 2024 - May 2024",
+    points: [
+      "Led the successful migration of 3 complex React projects into a single, streamlined monorepo, improving code maintainability and collaboration",
+      "Collaborated with the cybersecurity team to implement multi-factor authentication, enhancing login security for all users",
+      "Boosted team productivity by 15% through the creation of video tutorials, comprehensive documentation updates in READMEs, and ongoing mentorship programs.",
+    ],
+  },
+  {
+    title: "Student Engineer",
+    company_name: "Develop for Good",
+    icon: develop_for_good,
+    iconBg: "#1f1f1f",
+    date: "May 2024 - Present",
+    points: [
+      "Applied full-stack development skills to research, scope, develop, and demo a real-world solution for a non-profit organization within a compressed 16-week timeframe.",
+      "Currently in the process of implementing key features on the One Accord social network, enhancing user experience and facilitating connections between people of faith.",
+      "Effectively collaborated with a diverse team to deliver a social media platform for Kingdom Dao. This project honed my communication and teamwork skills, leading to a more efficient development process.",
+    ],
+  },
+  {
+    title: "Teaching Assistant",
+    company_name: "University of Pennsylvania",
+    icon: upenn,
+    iconBg: "white",
+    date: "May 2024 - Present",
+    points: [
+      "Helped students solidify their understanding of data structures and algorithms through interactive weekly office hours and student forums, assisting an average of 20+ students per week.",
+      "Led an engaging open recitation session for key topics, fostering active student participation and potentially contributing to improved exam performance.",
+      "Provided constructive feedback on graded assignments and exams for a class of 100+ students, maintaining a consistent grading rubric and facilitating student improvement.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -206,29 +242,49 @@ const projects = [
     live_link: "https://dave-cao.github.io/Book-Chronicles/",
   },
   {
-    name: "David's Blog",
-    description: "A simple and beautiful blog website.",
+    name: "Clever Kiddos Daycare",
+    description: "A freelance project for a new daycare.",
     tags: [
       {
-        name: "flask",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "SQL",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "python",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: davidsblog,
-    source_code_link: "https://github.com/dave-cao/David-Blog",
-    live_link: "https://davidsblog.xyz/",
+    image: cleverkiddos,
+    source_code_link: "https://clever-kiddos-daycare.vercel.app/",
   },
   {
-    name: "Freelance Project",
-    description: "A portfolio website for a Storyboard Artist",
+    name: "AI Fluently",
+    description:
+      "Provided front-end and webscraping services to a local start-up called AI fluently.",
+    tags: [
+      {
+        name: "svelte",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webscraping",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aifluently,
+    source_code_link: "https://www.aifluently.com/",
+  },
+  {
+    name: "William Heng",
+    description: "A portfolio website for a Storyboard Artist (freelance)",
     tags: [
       {
         name: "javascript",
