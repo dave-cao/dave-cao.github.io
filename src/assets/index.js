@@ -16,6 +16,8 @@ import udemy from "./company/udemy.png";
 import codepath from "./company/codepath.jpeg";
 import nathacks from "./company/nathacks.png";
 import upenn from "./company/upenn.png";
+import skyit from "./company/skyit_logo.jpg";
+import develop_for_good from "./company/develop_for_good.png";
 
 // Projects
 import davidsblog from "./projects/blogpicture.png";
@@ -23,6 +25,8 @@ import bookshelfChronicles from "./projects/book-chronicles.png";
 import studybot from "./projects/DiscordWelcomeBanner.png";
 import williamPortfolio from "./projects/WilliamPortfolio.png";
 import physmatch from "./projects/nathacksphoto.png";
+import aifluently from "./projects/aifluently.png";
+import cleverkiddos from "./projects/cleverkiddosdaycare.png";
 
 // Socials
 import github_social from "./socials/github_social.png";
@@ -49,12 +53,16 @@ export {
   codepath,
   nathacks,
   upenn,
+  skyit,
+  develop_for_good,
   // projects
   davidsblog,
   bookshelfChronicles,
   studybot,
   williamPortfolio,
   physmatch,
+  aifluently,
+  cleverkiddos,
   // socials
   github_social,
   linkedin,

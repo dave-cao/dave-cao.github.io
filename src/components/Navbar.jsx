@@ -62,6 +62,7 @@ const Navbar = () => {
 
         {/* Other links */}
         <ul className={`list-none hidden sm:flex flex-row gap-10 transition-all duration-300`}>
+          <li className={`${active === "blog" ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => { setActive("blog") }}><Link to="/blog">Blog</Link></li>
           {navLinks.map((link) => {
             return (<li
               key={link.id}
